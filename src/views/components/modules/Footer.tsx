@@ -1,13 +1,13 @@
 import useStyles from "style/style"
 
-const Fotter = () => {
+const Footer = () => {
   const classes = useStyles();
 
   return (
     <div className={classes.footer}>
-      <p>this is a fotter</p>
+      <p>this is a footer</p>
     </div>
   )
 }
 
-export default Fotter
+export default Footer

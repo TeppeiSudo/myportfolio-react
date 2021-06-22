@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 import Portfolio from './views/pages/Portfolio';
 import Top from './views/pages/Top';
 import Header from './views/components/modules/Header';
-import Fotter from './views/components/modules/Fotter';
+import Footer from './views/components/modules/Footer';
 import { ThemeProvider } from '@material-ui/core';
 import theme from 'style/theme';
 
@@ -20,7 +20,7 @@ const App = () => {
             <Portfolio />
           </Route>
         </Router>
-        <Fotter />
+        <Footer />
       </ThemeProvider>
     </React.StrictMode>
   );
