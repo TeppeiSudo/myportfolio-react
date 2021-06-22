@@ -1,19 +1,16 @@
 import React, { ReactComponentElement } from 'react';
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
-import '../../style/Top.css';
-import Header from 'views/components/modules/Header';
-import Fotter from 'views/components/modules/Fotter';
+import useStyles from 'style/style';
 
 const Top = () => {
+  const classes = useStyles();
   return (
-    <Link className='Top-link' to='/portfolio'>
-      <div className="Top">
-        <div className="Top-header">
+    <Link className={classes.link} to='/portfolio'>
+        <div className={classes.top}>
           <h1>
             Welcome to my portfolio!!
           </h1>
         </div>
-      </div>
     </Link>
   );
 }

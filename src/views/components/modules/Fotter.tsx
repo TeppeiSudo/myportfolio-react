@@ -1,9 +1,11 @@
+import useStyles from "style/style"
+
 const Fotter = () => {
+    const classes = useStyles();
+
     return (
-      <div color="primary">
-        <p>
-            this is a fotter
-        </p>
+      <div className={classes.footer}>
+        <p>this is a fotter</p>
       </div>
     )
   }

@@ -1,12 +1,13 @@
-import '../../style/Top.css'
+import useStyles from 'style/style';
 
 const Portfolio = () => {
+  const classes = useStyles();
   return (
-    <div className="Top">
-          <div className="Top-header">
-            <p>this is a portfolio</p>
-          </div>
-        </div>
+    <div className={classes.portfolio}>
+      <p>
+        this is a portfolio
+      </p>
+    </div>
   );
 }
 
