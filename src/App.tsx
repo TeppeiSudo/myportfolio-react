@@ -12,14 +12,14 @@ const App = () => {
     <React.StrictMode>
       <ThemeProvider theme={theme}>
         <Header />
-          <Router>
-            <Route exact path='/'>
-              <Top />
-            </Route>
-            <Route path='/portfolio'>
-              <Portfolio />
-            </Route>
-          </Router>
+        <Router>
+          <Route exact path='/'>
+            <Top />
+          </Route>
+          <Route path='/portfolio'>
+            <Portfolio />
+          </Route>
+        </Router>
         <Fotter />
       </ThemeProvider>
     </React.StrictMode>
