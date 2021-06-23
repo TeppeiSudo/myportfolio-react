@@ -1,23 +1,32 @@
-import { AppBar, Toolbar, Typography, Box, Button } from '@material-ui/core';
-import useStyles from 'style/style';
+import { AppBar, Toolbar, Typography, Box, Button } from "@material-ui/core";
+import { Link } from "react-router-dom";
+import useStyles from "style/style";
 
 const Header = () => {
   const classes = useStyles();
   return (
-    <AppBar position='static'>
+    <AppBar position="fixed">
       <Toolbar>
-        <Typography variant="h6" className={classes.header}>
-            Teppei Sudo's Portfolio
+        <Typography variant="h6" className={classes.headername}>
+          Teppei Sudo's Portfolio
         </Typography>
         <Box>
-            <Button color="inherit">{"About Me"}</Button>
-            <Button color="inherit">{"Works"}</Button>
-            <Button color="inherit">{"Education"}</Button>
-            <Button color="inherit">{"Contact"}</Button>
+          <Button color='inherit' href='#'>
+            {"Top"}
+          </Button>
+          <Button color="inherit" href="#skills">
+            {"Skills"}
+          </Button>
+          <Button color="inherit" href="#works">
+            {"Works"}
+          </Button>
+          <Button color="inherit" href="#education">
+            {"Education"}
+          </Button>
         </Box>
       </Toolbar>
     </AppBar>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

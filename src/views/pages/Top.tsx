@@ -6,6 +6,7 @@ const Top = () => {
   const classes = useStyles();
   return (
     <Link className={classes.link} to='/portfolio'>
+      <div className={classes.offset} />
         <div className={classes.top}>
           <h1>
             Welcome to my portfolio!!
