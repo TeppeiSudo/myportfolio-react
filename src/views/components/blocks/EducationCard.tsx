@@ -1,29 +1,46 @@
-import {
-  IconButton,
-  ButtonGroup,
-  Container,
-  Typography,
-  Link,
-} from "@material-ui/core";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import { Star } from "@material-ui/icons";
+import TimelineItem from "@material-ui/lab/TimelineItem";
+import TimelineSeparator from "@material-ui/lab/TimelineSeparator";
+import TimelineConnector from "@material-ui/lab/TimelineConnector";
+import TimelineContent from "@material-ui/lab/TimelineContent";
+import { TimelineOppositeContent } from "@material-ui/lab";
+import TimelineDot from "@material-ui/lab/TimelineDot";
+import { Typography, Link } from "@material-ui/core";
 import { Card, CardActions, CardContent, Button } from "@material-ui/core/";
 import useStyles from "style/style";
 
-const EducationCard = () => {
+export type EducationCardType = {
+  name: string;
+  year: string;
+  depart: string;
+  position: string;
+  details: string;
+  link: string;
+};
+
+const EducationCard = (props: EducationCardType) => {
   const classes = useStyles();
 
   return (
-    <Card variant="outlined" className={classes.workcard}>
-      <CardContent>
-        <Typography variant="h4">Rakuten Group Inc. (2022~Now)</Typography>
-        <Typography variant="h5">Cloud Platform Department</Typography>
-        <Typography variant="h6">Web Application Engineer</Typography>
-        <Typography variant="body2">
-          <Link>Learn More</Link>
-        </Typography>
-      </CardContent>
-    </Card>
+    <TimelineItem>
+      <TimelineOppositeContent>{props.year}</TimelineOppositeContent>
+      <TimelineSeparator>
+        <TimelineDot />
+        <TimelineConnector />
+      </TimelineSeparator>
+      <TimelineContent>
+        <Card variant="outlined" className={classes.workcard}>
+          <CardContent>
+            <Typography variant="h4">{props.name}</Typography>
+            <Typography variant="h5">{props.depart}</Typography>
+            <Typography variant="h6">{props.position}</Typography>
+            <Typography variant="body2">{props.details}</Typography>
+            <Typography variant="body2">
+              <Link>{props.link}</Link>
+            </Typography>
+          </CardContent>
+        </Card>
+      </TimelineContent>
+    </TimelineItem>
   );
 };
 

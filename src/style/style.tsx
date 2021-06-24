@@ -58,7 +58,7 @@ const useStyles = makeStyles({
   },
   timeline: {
     textAlign: "left",
-    marginLeft: '-60vh'
+    marginLeft: '-40vh'
   },
   offset: theme.mixins.toolbar,
   link: {
