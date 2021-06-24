@@ -6,22 +6,23 @@ const Icon = () => {
   const classes = useStyles();
 
   return (
-    <Container maxWidth={false}>
+    <Container maxWidth='xl'>
       <div id="" className={classes.offset} />
       <Grid
         container
-        spacing={1}
+        spacing={0}
+        xs={12}
         direction="row"
         justify="center"
-        alignItems="flex-start"
+        alignItems="center"
         className={classes.icon}
       >
-        <Grid item xs={4}>
+        <Grid item xs={3}>
           <Avatar src="psyduck.jpg" className={classes.avatar} />
         </Grid>
-        <Grid item xs={4} className={classes.avatartext}>
-          <Typography variant="h1">I'm Teppei</Typography>
-          <Typography variant="body1">A software engineer.</Typography>
+        <Grid item xs={5} className={classes.avatartext}>
+          <Typography variant="h1">Hi, I'm Teppei</Typography>
+          <Typography variant="body1">A software engineer</Typography>
           <ContactButtons />
         </Grid>
       </Grid>

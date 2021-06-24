@@ -1,5 +1,4 @@
 import { AppBar, Toolbar, Typography, Box, Button } from "@material-ui/core";
-import { Link } from "react-router-dom";
 import useStyles from "style/style";
 
 const Header = () => {
@@ -18,7 +17,7 @@ const Header = () => {
             {"Skills"}
           </Button>
           <Button color="inherit" href="#works">
-            {"Works"}
+            {"Experience"}
           </Button>
           <Button color="inherit" href="#education">
             {"Education"}

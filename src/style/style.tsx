@@ -42,7 +42,7 @@ const useStyles = makeStyles({
   },
   portfolio: {
     color: grey[900],
-    backgroundColor: grey[50],
+    backgroundColor: '#ffffff',
     minHeight: "100vh",
     display: "flex",
     flexDirection: "column",
