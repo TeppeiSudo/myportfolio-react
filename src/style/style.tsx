@@ -1,5 +1,6 @@
 import { makeStyles } from "@material-ui/core";
 import grey from "@material-ui/core/colors/grey";
+import blue from "@material-ui/core/colors/blue";
 import theme from "./theme";
 
 const useStyles = makeStyles({
@@ -32,6 +33,14 @@ const useStyles = makeStyles({
     fontSize: 60,
     margin: "auto",
   },
+  skillcard: {
+    minWidth: "22vh",
+    minHeight: "22vh",
+    color: blue[600],
+  },
+  workcard: {
+    maxWidth: "70vh",
+  },
   portfolio: {
     color: grey[900],
     backgroundColor: grey[50],
@@ -46,6 +55,10 @@ const useStyles = makeStyles({
   },
   content: {
     minHeight: "50vh",
+  },
+  timeline: {
+    textAlign: "left",
+    marginLeft: '-60vh'
   },
   offset: theme.mixins.toolbar,
   link: {
