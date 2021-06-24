@@ -15,18 +15,18 @@ const Education = () => {
   const bachelor: EducationCardType = {
     name: "Tokyo Intitute of Technology",
     year: "2016~2020",
-    depart: "EE",
-    position: "bachelor of Engineering",
+    depart: "Electrical and Electronics",
+    position: "Bachelor of Engineering",
     details: "",
-    link: "learn more",
+    link: "#",
   };
   const master: EducationCardType = {
     name: "Tokyo Intitute of Technology",
     year: "2020~2022",
-    depart: "EE",
-    position: "master of Engineering",
+    depart: "Electrical and Electronics",
+    position: "Master of Engineering",
     details: "",
-    link: "learn more",
+    link: "#",
   };
 
   return (

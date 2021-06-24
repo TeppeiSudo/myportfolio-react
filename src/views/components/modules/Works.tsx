@@ -11,20 +11,20 @@ import WorkCard, { WorkCardType } from "../blocks/WorkCard";
 const Works = () => {
   const classes = useStyles();
   const rakuten: WorkCardType = {
-    name: "rakuten",
-    year: "2022~",
-    depart: "CPD",
-    position: "web app eng",
-    details: "",
-    link: "learn more",
+    name: "Rakuten Group Inc.",
+    year: "2022.4~",
+    depart: "Cloud Platform Department",
+    position: "Web Application Engineer",
+    details: "scheduled to join the company in 2022.4",
+    link: "#",
   };
   const now: WorkCardType = {
-    name: "Tokyo Tech",
-    year: "Now~2022",
-    depart: '',
-    position: '',
-    details: '',
-    link: '',
+    name: "Tokyo Institute of Technology",
+    year: "Now~2022.3",
+    depart: 'Eloctrical and Electronics',
+    position: "Graduate Student",
+    details: 'expected graduation in 2022.3',
+    link: '#',
   }
 
   return (

@@ -36,7 +36,6 @@ const useStyles = makeStyles({
   skillcard: {
     minWidth: "22vh",
     minHeight: "22vh",
-    color: blue[600],
   },
   workcard: {
     maxWidth: "70vh",

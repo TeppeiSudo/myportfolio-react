@@ -6,6 +6,7 @@ import { TimelineOppositeContent } from "@material-ui/lab";
 import TimelineDot from "@material-ui/lab/TimelineDot";
 import { Typography, Link } from "@material-ui/core";
 import { Card, CardActions, CardContent, Button } from "@material-ui/core/";
+import blue from "@material-ui/core/colors/blue";
 import useStyles from "style/style";
 
 export type EducationCardType = {
@@ -35,7 +36,7 @@ const EducationCard = (props: EducationCardType) => {
             <Typography variant="h6">{props.position}</Typography>
             <Typography variant="body2">{props.details}</Typography>
             <Typography variant="body2">
-              <Link>{props.link}</Link>
+              <Link href={props.link} style={{ color: blue[600] }} >learn more</Link>
             </Typography>
           </CardContent>
         </Card>
