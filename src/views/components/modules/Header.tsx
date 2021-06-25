@@ -13,8 +13,14 @@ const Header = () => {
           <Button color='inherit' href='#'>
             {"Top"}
           </Button>
+          <Button color='inherit' href='#aboutme'>
+            {"About"}
+          </Button>
           <Button color="inherit" href="#skills">
             {"Skills"}
+          </Button>
+          <Button color='inherit' href='#projects'>
+            {"Projects"}
           </Button>
           <Button color="inherit" href="#works">
             {"Experience"}

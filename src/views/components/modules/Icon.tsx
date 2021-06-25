@@ -20,8 +20,8 @@ const Icon = () => {
         <Grid item xs={3}>
           <Avatar src="psyduck.jpg" className={classes.avatar} />
         </Grid>
-        <Grid item xs={5} className={classes.avatartext}>
-          <Typography variant="h1">Hi, I'm Teppei</Typography>
+        <Grid item xs={4} className={classes.avatartext}>
+          <Typography variant="h2">Hello, I'm Teppei</Typography>
           <Typography variant="body1">A software engineer</Typography>
           <ContactButtons />
         </Grid>

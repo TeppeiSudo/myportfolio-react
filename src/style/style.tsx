@@ -18,8 +18,8 @@ const useStyles = makeStyles({
     textAlign: "center",
   },
   avatar: {
-    width: theme.spacing(40),
-    height: theme.spacing(40),
+    width: theme.spacing(35),
+    height: theme.spacing(35),
     margin: "auto",
   },
   avatartext: {
@@ -36,6 +36,14 @@ const useStyles = makeStyles({
   skillcard: {
     minWidth: "22vh",
     minHeight: "22vh",
+  },
+  projectcard: {
+    maxWidth: '40vh',
+    minWidth: '40vh',
+  },
+  media: {
+    height: 0,
+    paddingTop: '56.25%', // 16:9
   },
   workcard: {
     maxWidth: "70vh",
