@@ -1,15 +1,23 @@
 import {
   Typography,
   Link,
-  Grid,
   CardActionArea,
   CardMedia,
+  makeStyles,
 } from "@material-ui/core";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import { Star } from "@material-ui/icons";
 import { Card, CardContent } from "@material-ui/core/";
-import useStyles from "style/style";
 import { grey, blue, yellow } from "@material-ui/core/colors";
+
+const useStyles = makeStyles({
+  projectcard: {
+    maxWidth: "40vh",
+    minWidth: "40vh",
+  },
+  media: {
+    height: 0,
+    paddingTop: "56.25%", // 16:9
+  },
+})
 
 export type ProjectCardType = {
   image: string;

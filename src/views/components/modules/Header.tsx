@@ -1,5 +1,17 @@
-import { AppBar, Toolbar, Typography, Box, Button } from "@material-ui/core";
-import useStyles from "style/style";
+import {
+  AppBar,
+  Toolbar,
+  Typography,
+  Box,
+  Button,
+  makeStyles,
+} from "@material-ui/core";
+
+const useStyles = makeStyles({
+  headername: {
+    flexGrow: 1,
+  },
+});
 
 const Header = () => {
   const classes = useStyles();
@@ -10,16 +22,16 @@ const Header = () => {
           Teppei Sudo's Portfolio
         </Typography>
         <Box>
-          <Button color='inherit' href='#'>
+          <Button color="inherit" href="#">
             {"Top"}
           </Button>
-          <Button color='inherit' href='#aboutme'>
+          {/* <Button color='inherit' href='#aboutme'>
             {"About"}
-          </Button>
+          </Button> */}
           <Button color="inherit" href="#skills">
             {"Skills"}
           </Button>
-          <Button color='inherit' href='#projects'>
+          <Button color="inherit" href="#projects">
             {"Projects"}
           </Button>
           <Button color="inherit" href="#works">

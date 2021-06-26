@@ -1,14 +1,24 @@
-import { Container, Typography } from "@material-ui/core";
+import { Container, makeStyles, Typography } from "@material-ui/core";
 import Timeline from "@material-ui/lab/Timeline";
-import TimelineItem from "@material-ui/lab/TimelineItem";
-import TimelineSeparator from "@material-ui/lab/TimelineSeparator";
-import TimelineConnector from "@material-ui/lab/TimelineConnector";
-import TimelineContent from "@material-ui/lab/TimelineContent";
-import TimelineDot from "@material-ui/lab/TimelineDot";
 import EducationCard, { EducationCardType } from "../blocks/EducationCard";
-import useStyles from "style/style";
-import { getPositionOfLineAndCharacter } from "typescript";
-import { TimelineOppositeContent } from "@material-ui/lab";
+import theme from "style/theme";
+
+const useStyles = makeStyles({
+  workcard: {
+    maxWidth: "70vh",
+  },
+  content: {
+    minHeight: "50vh",
+  },
+  timeline: {
+    textAlign: "left",
+    marginLeft: "-40vh",
+  },
+  offset: theme.mixins.toolbar,
+  link: {
+    color: "#61dafb",
+  },
+})
 
 const Education = () => {
   const classes = useStyles();

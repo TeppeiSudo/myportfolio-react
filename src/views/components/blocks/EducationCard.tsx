@@ -4,10 +4,15 @@ import TimelineConnector from "@material-ui/lab/TimelineConnector";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 import { TimelineOppositeContent } from "@material-ui/lab";
 import TimelineDot from "@material-ui/lab/TimelineDot";
-import { Typography, Link } from "@material-ui/core";
+import { Typography, Link, makeStyles } from "@material-ui/core";
 import { Card, CardActions, CardContent, Button } from "@material-ui/core/";
 import blue from "@material-ui/core/colors/blue";
-import useStyles from "style/style";
+
+const useStyles = makeStyles({
+  workcard: {
+    maxWidth: "70vh",
+  },
+})
 
 export type EducationCardType = {
   name: string;

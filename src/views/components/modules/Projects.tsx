@@ -23,9 +23,9 @@ const Projects = () => {
   };
   const kaggle: ProjectCardType = {
     image: "/signate.png",
-    name: "Data Science Competicion",
+    name: "Data Science Competition",
     details: `I'm always looking for a right competition to win in Kaggle, 
-    SIGNATE, Nishika, atmacup, and so on. I have won the some medals, check it out.
+    SIGNATE, Nishika, atmacup, etc. I have won the some medals, check it out.
     If you're looking for a team merger, you can contact me on click here.`,
     link: "#",
   };

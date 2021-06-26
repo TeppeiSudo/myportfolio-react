@@ -1,6 +1,25 @@
-import { Container, Typography, Grid, Avatar, IconButton, SvgIcon } from "@material-ui/core";
+import { Container, Typography, Grid, Avatar, IconButton, SvgIcon, makeStyles } from "@material-ui/core";
 import ContactButtons from "../blocks/ContactButtons";
-import useStyles from "style/style";
+import theme from "style/theme";
+
+const useStyles = makeStyles({
+  avatar: {
+    width: theme.spacing(35),
+    height: theme.spacing(35),
+    margin: "auto",
+  },
+  avatartext: {
+    marginTop: "5vh",
+  },
+  icon: {
+    marginTop: "-10vh",
+    marginBottom: "10vh",
+  },
+  offset: theme.mixins.toolbar,
+  link: {
+    color: "#61dafb",
+  },
+})
 
 const Icon = () => {
   const classes = useStyles();

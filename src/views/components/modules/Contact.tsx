@@ -1,6 +1,16 @@
-import { Container, Typography } from "@material-ui/core";
+import { Container, makeStyles, Typography } from "@material-ui/core";
 import ContactButtons from "../blocks/ContactButtons";
-import useStyles from "style/style";
+import theme from "style/theme";
+
+const useStyles = makeStyles({
+  content: {
+    minHeight: "50vh",
+  },
+  offset: theme.mixins.toolbar,
+  link: {
+    color: "#61dafb",
+  },
+})
 
 const Contact = () => {
   const classes = useStyles();

@@ -1,7 +1,6 @@
 import React, { ReactComponentElement } from "react";
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 import Portfolio from "./views/pages/Portfolio";
-import Top from "./views/pages/Top";
 import Header from "./views/components/modules/Header";
 import Footer from "./views/components/modules/Footer";
 import { ThemeProvider, Box } from "@material-ui/core";

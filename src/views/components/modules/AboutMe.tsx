@@ -1,5 +1,15 @@
-import { Container, Typography } from "@material-ui/core";
-import useStyles from "style/style";
+import { Container, makeStyles, Typography } from "@material-ui/core";
+import theme from "style/theme";
+
+const useStyles = makeStyles({
+  content: {
+    minHeight: "50vh",
+  },
+  offset: theme.mixins.toolbar,
+  link: {
+    color: "#61dafb",
+  },
+})
 
 const AboutMe = () => {
   const classes = useStyles();

@@ -1,7 +1,21 @@
-import { Container, Typography } from "@material-ui/core";
+import { Container, makeStyles, Typography } from "@material-ui/core";
 import Timeline from "@material-ui/lab/Timeline";
-import useStyles from "style/style";
 import WorkCard, { WorkCardType } from "../blocks/WorkCard";
+import theme from "style/theme";
+
+const useStyles = makeStyles({
+  content: {
+    minHeight: "50vh",
+  },
+  offset: theme.mixins.toolbar,
+  link: {
+    color: "#61dafb",
+  },
+  timeline: {
+    textAlign: "left",
+    marginLeft: "-40vh",
+  },
+})
 
 const Works = () => {
   const classes = useStyles();

@@ -1,9 +1,15 @@
-import { IconButton, ButtonGroup, Container } from "@material-ui/core";
+import { IconButton, ButtonGroup, Container, makeStyles } from "@material-ui/core";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import Mail from "@material-ui/icons/Mail";
-import useStyles from "style/style";
+
+const useStyles = makeStyles({
+  buttongroup: {
+    fontSize: 60,
+    margin: "auto",
+  },
+})
 
 const ContactButtons = () => {
   const classes = useStyles();
