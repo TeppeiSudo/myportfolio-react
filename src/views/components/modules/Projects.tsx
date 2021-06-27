@@ -10,7 +10,7 @@ const Projects = () => {
     details: `This site. Used TypeScript, React, Material-UI, 
       and hosted with Github-pages. 
       Source code is in public repository, click here!`,
-    link: "#",
+    link: "https://github.com/TeppeiSudo/myportfolio-react",
   };
   const atcoder: ProjectCardType = {
     image: "/atcoder.png",
@@ -19,7 +19,7 @@ const Projects = () => {
     AtCoder is the most biggest contest site in Japan. 
     My current rating is about 600 (colored brown) as of June 2020. 
     I use Python(PyPy3).`,
-    link: "#",
+    link: "https://atcoder.jp/users/spyduck",
   };
   const kaggle: ProjectCardType = {
     image: "/signate.png",
@@ -27,7 +27,7 @@ const Projects = () => {
     details: `I'm always looking for a right competition to win in Kaggle, 
     SIGNATE, Nishika, atmacup, etc. I have won the some medals, check it out.
     If you're looking for a team merger, you can contact me on click here.`,
-    link: "#",
+    link: "https://signate.jp/users/49610",
   };
 
   return (

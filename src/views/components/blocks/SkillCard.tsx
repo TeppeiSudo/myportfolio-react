@@ -92,7 +92,7 @@ const SkillCard = (props: SkillCardType) => {
               </Grid>
               <Typography color="primary" variant="h4">{props.name}</Typography>
               {stars}
-              <Typography variant="body2">{props.details}</Typography>
+              <Typography variant="body2" style={{ color:blue[400] }}>{props.details}</Typography>
               <Typography color="primary" variant="h6">
                 {props.moredetails}
               </Typography>

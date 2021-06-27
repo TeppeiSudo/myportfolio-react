@@ -25,16 +25,8 @@ const Works = () => {
     depart: "Cloud Platform Department",
     position: "Web Application Engineer",
     details: "scheduled to join the company in 2022.4",
-    link: "#",
+    link: "https://global.rakuten.com/corp/",
   };
-  const now: WorkCardType = {
-    name: "Tokyo Institute of Technology",
-    year: "Now~2022.3",
-    depart: 'Electrical and Electronics',
-    position: "Graduate Student",
-    details: 'expected graduation in 2022.3',
-    link: '#',
-  }
 
   return (
     <Container maxWidth="lg" className={classes.content}>

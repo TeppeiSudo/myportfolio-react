@@ -28,7 +28,7 @@ const Education = () => {
     depart: "Electrical and Electronics",
     position: "Bachelor of Engineering",
     details: "",
-    link: "#",
+    link: "https://www.titech.ac.jp/",
   };
   const master: EducationCardType = {
     name: "Tokyo Intitute of Technology",
@@ -36,7 +36,7 @@ const Education = () => {
     depart: "Electrical and Electronics",
     position: "Master of Engineering",
     details: "",
-    link: "#",
+    link: "https://www.titech.ac.jp/",
   };
 
   return (
