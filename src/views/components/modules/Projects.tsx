@@ -5,7 +5,7 @@ import ProjectCard, { ProjectCardType } from "../blocks/ProjectCard";
 const Projects = () => {
   const classes = useStyles();
   const portfolio: ProjectCardType = {
-    image: "/portfolio_img.png",
+    image: "portfolio_img.png",
     name: "Portfolio Web Site",
     details: `This site. Used TypeScript, React, Material-UI, 
       and hosted with Github-pages. 
@@ -13,7 +13,7 @@ const Projects = () => {
     link: "https://github.com/TeppeiSudo/myportfolio-react",
   };
   const atcoder: ProjectCardType = {
-    image: "/atcoder.png",
+    image: "atcoder.png",
     name: "Competitive Programing",
     details: `I offten attend a competitive programing contest. 
     AtCoder is the most biggest contest site in Japan. 
@@ -22,7 +22,7 @@ const Projects = () => {
     link: "https://atcoder.jp/users/spyduck",
   };
   const kaggle: ProjectCardType = {
-    image: "/signate.png",
+    image: "signate.png",
     name: "Data Science Competition",
     details: `I'm always looking for a right competition to win in Kaggle, 
     SIGNATE, Nishika, atmacup, etc. I have won the some medals, check it out.
