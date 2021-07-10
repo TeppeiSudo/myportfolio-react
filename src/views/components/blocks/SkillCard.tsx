@@ -23,6 +23,7 @@ export type SkillCardType = {
 const useStyles = makeStyles({
   skillcard: {
     minWidth: "18vh",
+    maxWidth: "18vh",
     minHeight: "20vh",
     fontSize: 34,
     margin: "auto",
@@ -65,7 +66,7 @@ const SkillCard = (props: SkillCardType) => {
   }
 
   return (
-    <Grid item container direction="column" justify="center" xs={2}>
+    <Grid item>
       <Card variant="outlined">
         <CardActionArea onClick={handleClickOpen}>
           <CardContent className={classes.skillcard}>

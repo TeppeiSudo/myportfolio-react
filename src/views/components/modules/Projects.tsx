@@ -43,15 +43,9 @@ const Projects = () => {
         justify="center"
         alignItems="center"
       >
-        <Grid item xs={4}>
-          <ProjectCard {...portfolio} />
-        </Grid>
-        <Grid item xs={4}>
-          <ProjectCard {...atcoder} />
-        </Grid>
-        <Grid item xs={4}>
-          <ProjectCard {...kaggle} />
-        </Grid>
+        <ProjectCard {...portfolio} />
+        <ProjectCard {...atcoder} />
+        <ProjectCard {...kaggle} />
       </Grid>
     </Container>
   );
