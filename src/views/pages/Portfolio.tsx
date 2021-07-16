@@ -1,5 +1,4 @@
 import AboutMe from "views/components/modules/AboutMe";
-import Contact from "views/components/modules/Contact";
 import Education from "views/components/modules/Education";
 import Works from "views/components/modules/Works";
 import Icon from "views/components/modules/Icon";

@@ -1,6 +1,7 @@
 import React, { ReactComponentElement } from "react";
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 import Portfolio from "./views/pages/Portfolio";
+import ContactPage from "./views/pages/ContactPage";
 import Header from "./views/components/modules/Header";
 import Footer from "./views/components/modules/Footer";
 import { ThemeProvider, Box } from "@material-ui/core";
@@ -16,6 +17,9 @@ const App = () => {
             <Route path="/">
               <Portfolio />
             </Route>
+            {/* <Route path="/contact">
+              <ContactPage />
+            </Route> */}
           </Switch>
         </Router>
         <Footer />
