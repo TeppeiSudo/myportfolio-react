@@ -22,22 +22,22 @@ const Header = () => {
           Teppei Sudo's Portfolio
         </Typography>
         <Box>
-          <Button color="inherit" href="/#">
+          <Button color="inherit" href="#">
             {"Top"}
           </Button>
           {/* <Button color='inherit' href='#aboutme'>
             {"About"}
           </Button> */}
-          <Button color="inherit" href="/#skills">
+          <Button color="inherit" href="#skills">
             {"Skills"}
           </Button>
-          <Button color="inherit" href="/#projects">
+          <Button color="inherit" href="#projects">
             {"Projects"}
           </Button>
-          <Button color="inherit" href="/#works">
+          <Button color="inherit" href="#works">
             {"Experience"}
           </Button>
-          <Button color="inherit" href="/#education">
+          <Button color="inherit" href="#education">
             {"Education"}
           </Button>
           {/* <Button color="inherit" href="/contact">
