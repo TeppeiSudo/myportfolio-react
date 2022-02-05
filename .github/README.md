@@ -1,6 +1,6 @@
 # Portfolio
 
-https://teppeisudo.github.io/myportfolio-react/
+https://sp-yduck.github.io/myportfolio-react/
 
 # Getting Started with Create React App
 
